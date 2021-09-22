@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31710.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageSharpBugTests", "ImageSharpBugTests\ImageSharpBugTests.csproj", "{0A376935-825F-47EA-BA69-F3E7531147D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{82070ED1-DBCF-4749-80A6-071CFDA30900}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{E10F5CC4-5894-452B-A6A1-15DEF34FEF69}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yaml = .github\workflows\dotnet.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A376935-825F-47EA-BA69-F3E7531147D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A376935-825F-47EA-BA69-F3E7531147D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A376935-825F-47EA-BA69-F3E7531147D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A376935-825F-47EA-BA69-F3E7531147D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E10F5CC4-5894-452B-A6A1-15DEF34FEF69} = {82070ED1-DBCF-4749-80A6-071CFDA30900}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F08194E2-769F-45F9-B26E-050848C8675F}
+	EndGlobalSection
+EndGlobal
